@@ -13,6 +13,8 @@ export default ({ mode }) => {
 
 	return defineConfig({
 			plugins: [sveltekit()],
-			'process.env': process.env
+			define: {
+				'process.env': process.env
+			}
 	});
 }
