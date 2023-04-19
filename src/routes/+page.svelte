@@ -77,13 +77,11 @@
   }
   
   li.message {
-    text-align: left;
     color: var(--h1-color);
     background-color: var(--primary);
   }
 
   li.answer {
-    text-align: right;
     color: var(--h1-color);
     background-color: var(--secondary);
     margin-left: auto;

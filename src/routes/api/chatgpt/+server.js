@@ -11,7 +11,7 @@ if (process.env.NODE_ENV === 'production') {
 }
 
 const openai = new OpenAIApi(new Configuration({
-  apiKey: API_KEY
+  apiKey: apiKey
 }))
 
 // api/chatgpt POST
