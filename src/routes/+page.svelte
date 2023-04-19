@@ -39,7 +39,7 @@
 <main>
   <h1>SvelteGPT</h1>
   <article>
-    <form on:submit|preventDefault={handleSubmit}>
+    <form on:submit|preventDefault={handleSubmit} autocomplete="off">
       <!-- <input type="text" bind:value={question} placeholder="Ask me anything" /> -->
       <input type="text" name="message" bind:value={message} placeholder="Ask me anything!" />
       {#if loading}
