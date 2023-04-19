@@ -1,0 +1,40 @@
+:root {
+  --primary: #ff3e00;
+  --primary-hover: #676778;
+}
+
+/* Firefox */
+* {
+  scrollbar-width: auto;
+  scrollbar-color: #0e151a #141e26;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 26px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #141e26;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #0e151a;
+  border-radius: 100px;
+  border: 8px solid #141e26;
+}
+
+body {
+  height: 100vh;
+  padding: 1rem;
+  overflow: hidden;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+ul li {
+  list-style: none;
+}
